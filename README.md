@@ -26,6 +26,7 @@ cd "C:\Program Files\Microsoft Office\Office16"
 cscript ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
 cscript ospp.vbs /sethst:kms.loli.beer
 cscript ospp.vbs /act
+cscript ospp.vbs /dstatus
 ```
 
 
