@@ -4,10 +4,10 @@ After=network.target
 
 [Service]
 Type=simple
-DynamicUser=yes
+PIDFile= /usr/local/etc/vlmcsd/vlmcsd.pid
 Restart=on-failure
 RestartSec=5s
-ExecStart=/usr/bin/vlmcsd -j /etc/vlmcsd/vlmcsd.kmd -l syslog -D
+ExecStart=/usr/bin/vlmcsd -p /usr/local/etc/vlmcsd/vlmcsd.pid
 
 [Install]
 WantedBy=multi-user.target
