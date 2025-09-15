@@ -1,12 +1,8 @@
-# vlmcsd (KMS 模拟器)
-
-[![auto build engine](https://github.com/ActiveIce/vlmcsd/workflows/auto%20build%20engine/badge.svg)](https://github.com/ActiveIce/vlmcsd/actions)
-
 ### 服务器端部署
 
 ``` bash
 sudo su
-bash <(curl -L -s https://raw.githubusercontent.com/ActiveIce/vlmcsd/master/deploy.sh)
+bash <(curl -L -s https://raw.githubusercontent.com/sdhz151/vlmcsd/master/deploy.sh)
 ```
 
 ## 使用方法
