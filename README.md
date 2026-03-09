@@ -24,6 +24,7 @@ cscript ospp.vbs /setprt:8080（端口）
 cscript ospp.vbs /sethst:kms.loli.beer
 cscript ospp.vbs /act
 cscript ospp.vbs /dstatus
+cscript ospp.vbs /unpkey:五位数(卸载key)
 ```
 
 
